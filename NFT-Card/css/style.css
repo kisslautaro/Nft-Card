@@ -101,7 +101,7 @@ h2,p{
 
 .linee{
     border-bottom: 1px solid var(--neutralVeryDarkBlueLine);
-    margin: 2rem 0 2rem 0;
+    margin: 3rem 0 2rem 0;
 }
 
 /* Card Info */
@@ -167,7 +167,7 @@ h2,p{
     
 }
 .card__user img{
-    width: 3.5rem;
+    width: 3rem;
     border: .15rem solid var(--White);
     border-radius: 5rem;
     vertical-align: middle;
@@ -177,7 +177,7 @@ h2,p{
     color: var(--primarySoftBlue);
     font-size: 1.6rem;
     text-align: center;
-    margin-left: 1.5rem;
+    margin-left: 1rem;
 }
 .card__user span{
     color: var(--White);

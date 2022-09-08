@@ -1,0 +1,166 @@
+:root{
+
+/* Colors Primary */
+
+    --primarySoftBlue:hsl(215, 51%, 70%);
+    --primaryCyan:hsl(178, 100%, 50%);
+    --White:hsl(0, 0%, 100%);
+
+/* Colors Neutral */
+
+    --gris:#e1e1e1;
+    --neutralVeryDarkBlueBG:hsl(217, 54%, 11%);
+    --neutralVeryDarkBlueCardBG:hsl(216, 50%, 16%);
+    --neutralVeryDarkBlueLine:hsl(215, 32%, 27%);
+
+/* Fonts */
+    --font:'Outfit', sans-serif;
+}
+/* Globlal */
+html{
+    box-sizing: border-box;
+    font-size:  62.5%;
+    height: 100%;
+    
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+
+}
+
+body{
+    height: 100vh;
+    background-color: var(--neutralVeryDarkBlueBG);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2,p{
+    margin: 0;
+    display: inline;
+    font-family: var(--font);
+}
+
+
+/* Card */
+
+.card{
+   
+    display: flex;
+    flex-direction: column;
+    background-color: var(--neutralVeryDarkBlueCardBG);
+    width: 40rem;
+    height: 65rem;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    
+    
+}
+
+/* Card img */
+
+.card__img{
+    margin: 0 auto;
+    width: 100%;
+    border-radius: .7rem;
+}
+
+/* Card text */
+
+.card__texts h1{
+    margin: 2rem 0 2rem 0;
+}
+.card__texts{
+    color: var(--White);
+    font-family: var(--font);
+    
+}
+
+.card__texts p{
+    font-size: 2rem;
+    color: var(--primarySoftBlue);
+    font-weight: 300;
+    
+    
+}
+
+.linee{
+    border-bottom: 1px solid var(--neutralVeryDarkBlueLine);
+    margin: 2.5rem 0 2.5rem 0;
+}
+
+/* Card Info */
+.card__info{
+   margin-top: 2rem; 
+   
+   
+}
+
+/* Card info left */
+
+
+.card__info--left {
+    float: left;
+    
+    
+}
+.card__info--left h2{
+    color: var(--primaryCyan);
+    font-size: 1.8rem;
+    margin-left: .5rem;
+    font-weight: 600;
+}
+.card__info--left img{
+    vertical-align: sub;
+    width: 1.3rem;
+
+}
+
+/* Card info right */
+
+.card__info--right{
+    float: right;
+    color: var(--primarySoftBlue);
+    
+    
+}
+.card__info--right p{
+    font-size: 1.8rem;
+    margin-left: .5rem;
+    font-weight: 400;
+    
+}
+.card__info--right img{
+    vertical-align: sub;
+    width: 1.8rem;
+    
+}
+
+
+
+/* Card User */
+
+
+
+.card__user img{
+    width: 4rem;
+    border: .15rem solid var(--White);
+    border-radius: 5rem;
+    vertical-align: middle;
+}
+
+.card__user p{
+    color: var(--primarySoftBlue);
+    font-size: 1.8rem;
+    text-align: center;
+    margin-left: 2rem;
+}
+.card__user span{
+    color: var(--White);
+}
+
+
+
+

@@ -82,7 +82,8 @@ h2,p{
 
 .card__texts h1{
     margin: 3rem 0 2rem 0;
-    font-size: 2.1rem;
+    font-size: 2.3rem;
+    font-weight: 600;
 }
 .card__texts{
     color: var(--White);
@@ -101,7 +102,7 @@ h2,p{
 
 .linee{
     border-bottom: 1px solid var(--neutralVeryDarkBlueLine);
-    margin: 2rem 0 2rem 0;
+    margin: 2.5rem 0 2rem 0;
 }
 
 /* Card Info */
@@ -149,7 +150,7 @@ h2,p{
 .card__info--right p{
     font-size: 1.6rem;
     margin-left: .5rem;
-    font-weight: 400;
+    font-weight: 600;
     
 }
 .card__info--right img{

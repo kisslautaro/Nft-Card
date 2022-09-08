@@ -51,10 +51,11 @@ h2,p{
     display: flex;
     flex-direction: column;
     background-color: var(--neutralVeryDarkBlueCardBG);
-    width: 40rem;
-    height: 65rem;
+    width: 35rem;
+    height: 60rem;
     padding: 2rem;
     border-radius: 1.5rem;
+    
     
     
 }
@@ -82,6 +83,7 @@ h2,p{
     font-size: 2rem;
     color: var(--primarySoftBlue);
     font-weight: 300;
+    line-height: 1.5;
     
     
 }

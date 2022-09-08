@@ -80,7 +80,7 @@ h2,p{
 }
 
 .card__texts p{
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: var(--primarySoftBlue);
     font-weight: 300;
     line-height: 1.5;
@@ -90,7 +90,7 @@ h2,p{
 
 .linee{
     border-bottom: 1px solid var(--neutralVeryDarkBlueLine);
-    margin: 2.5rem 0 2.5rem 0;
+    margin: 2.5rem 0 2rem 0;
 }
 
 /* Card Info */
@@ -147,7 +147,7 @@ h2,p{
 
 
 .card__user img{
-    width: 4rem;
+    width: 3rem;
     border: .15rem solid var(--White);
     border-radius: 5rem;
     vertical-align: middle;
@@ -155,9 +155,9 @@ h2,p{
 
 .card__user p{
     color: var(--primarySoftBlue);
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     text-align: center;
-    margin-left: 2rem;
+    margin-left: 1.5rem;
 }
 .card__user span{
     color: var(--White);

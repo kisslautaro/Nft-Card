@@ -65,7 +65,7 @@ h2,p{
     height: 60rem;
     padding: 2.5rem;
     border-radius: 2rem;
-    
+   
     
     
 }
@@ -76,13 +76,14 @@ h2,p{
     margin: 0 auto;
     width: 100%;
     border-radius: .7rem;
+    
 }
 
 /* Card text */
 
 .card__texts h1{
     margin: 3rem 0 2rem 0;
-    font-size: 2.3rem;
+    font-size: 2.2rem;
     font-weight: 600;
 }
 .card__texts{
@@ -168,7 +169,7 @@ h2,p{
     
 }
 .card__user img{
-    width: 3.3rem;
+    width: 3.2rem;
     border: .15rem solid var(--White);
     border-radius: 5rem;
     vertical-align: middle;

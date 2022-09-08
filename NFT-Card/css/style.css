@@ -63,7 +63,7 @@ h2,p{
     background-color: var(--neutralVeryDarkBlueCardBG);
     width: 35rem;
     height: 60rem;
-    padding: 2rem;
+    padding: 2.5rem;
     border-radius: 2rem;
     
     
@@ -74,7 +74,7 @@ h2,p{
 
 .card__img{
     margin: 0 auto;
-    width: 98%;
+    width: 100%;
     border-radius: .7rem;
 }
 

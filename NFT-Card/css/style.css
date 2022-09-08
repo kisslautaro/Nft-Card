@@ -81,7 +81,7 @@ h2,p{
 /* Card text */
 
 .card__texts h1{
-    margin: 2rem 0 2rem 0;
+    margin: 3rem 0 2rem 0;
     font-size: 2.1rem;
 }
 .card__texts{
@@ -111,7 +111,7 @@ h2,p{
    display: flex;
    justify-content: space-between;
    align-items: center;
-   margin-top: 1rem;
+   margin-top: 2rem;
    
    
 }

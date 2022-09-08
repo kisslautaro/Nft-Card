@@ -54,7 +54,7 @@ h2,p{
     width: 35rem;
     height: 60rem;
     padding: 2rem;
-    border-radius: 1.5rem;
+    border-radius: 2rem;
     
     
     
@@ -64,7 +64,7 @@ h2,p{
 
 .card__img{
     margin: 0 auto;
-    width: 100%;
+    width: 98%;
     border-radius: .7rem;
 }
 
@@ -72,6 +72,7 @@ h2,p{
 
 .card__texts h1{
     margin: 2rem 0 2rem 0;
+    font-size: 2.1rem;
 }
 .card__texts{
     color: var(--White);
@@ -110,13 +111,13 @@ h2,p{
 }
 .card__info--left h2{
     color: var(--primaryCyan);
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     margin-left: .5rem;
     font-weight: 600;
 }
 .card__info--left img{
     vertical-align: sub;
-    width: 1.3rem;
+    /* width: 1rem; */
 
 }
 
@@ -129,14 +130,14 @@ h2,p{
     
 }
 .card__info--right p{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     margin-left: .5rem;
     font-weight: 400;
     
 }
 .card__info--right img{
     vertical-align: sub;
-    width: 1.8rem;
+    /* width: 1.8rem; */
     
 }
 
